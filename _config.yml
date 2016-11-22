@@ -33,7 +33,7 @@ author: "Akshat Dubey"
 title: "{ Akshat Dubey }"
 description: "Blog and website of Akshat Dubey, blogging whatever interests me. Opinions expressed are mine."
 keywords: "Akshat, Dubey, blog, tech"
-favicon: "/img/favicon.ico"
+favicon: "/img/engie.ico"
 
 ################
 # Header layout #
@@ -112,16 +112,19 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+  - image: "/img/timeline/NUS.png"
+    date: "October 2016 - Today"
+    description: "Working at NUS!"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
+    date: "August 2012"
     description: "Started coding"
+  - image: "/img/timeline/birth.png"
+    date: "1994"
+    description: "Came into this world"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/default.jpg"
 
 ###########
 # Contact #
