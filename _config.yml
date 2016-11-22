@@ -55,8 +55,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  # - text: "The lower you fall, the higher you'll fly."
+  # - text: "Where’s your will to be weird?"
+  - text: "The right man in the wrong place can make all the difference in the world"
 
 me-img: "/img/akshat.jpg"
 
