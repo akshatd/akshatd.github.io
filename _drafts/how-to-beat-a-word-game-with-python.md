@@ -1,10 +1,10 @@
-<!---
+---
 layout: post
 section-type: post
 title: Solving a mundane word game with Python
 category: Code
 tags: [ 'Python', 'word-puzzle', 'set' ]
---->
+---
 So one fine day I encounter one of these word-game-riddle-thingies that im normally not very good at. It was on a whatsapp group chat, so while everyone normally flexes their brain muslces, I slip into a silent corner. This time round though, it was different. I decided to participate. What was different? This time I had Python!
 
 So well the puzzle goes something like this:  
