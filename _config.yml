@@ -140,7 +140,7 @@ email: "akshatdubey@outlook.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Akshat Dubey is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, Akshat likes to eat cotton candy."
+author_blurb: "Akshat Dubey is a computer engineer who is infinitely curious about the world. He likes to listen to metal, run and play PC games when hes not busy learning or building something awesome"
 author_blurb_image: "/img/author.png"
 
 ##################
