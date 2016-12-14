@@ -27,11 +27,10 @@ ciiavelglyt
 </code></pre>
 
 This was pretty straightforward, and I knew I needed the english dictionary to start with. There were a lot of different sources I could go with, here are a few examples to start with:
-<pre><code>[http://www-personal.umich.edu/~jlawler/wordlist](http://www-personal.umich.edu/~jlawler/wordlist)
-[http://www.mit.edu/~ecprice/wordlist.10000](http://www.mit.edu/~ecprice/wordlist.10000)
-[https://github.com/en-wl/wordlist](https://github.com/en-wl/wordlist)
-[https://github.com/dwyl/english-words](https://github.com/dwyl/english-words])
-</code></pre>
+- [http://www-personal.umich.edu/~jlawler/wordlist](http://www-personal.umich.edu/~jlawler/wordlist)
+- [http://www.mit.edu/~ecprice/wordlist.10000](http://www.mit.edu/~ecprice/wordlist.10000)
+- [https://github.com/en-wl/wordlist](https://github.com/en-wl/wordlist)
+- [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words])
 
 I got myself a words.txt file with ~25K words, each on a separate line. Reading them into a list was not that difficult:  
 <pre><code data-trim class="python">wordfile = open("words.txt")
@@ -46,4 +45,5 @@ words = list(x.rstrip() for x in wordfile)
 Well, now we need a user input! So  
 <pre><code data-trim class="python">+input_word = raw_input("Enter the word to be checked: ")
 </code></pre>
+
 
