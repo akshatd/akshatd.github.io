@@ -26,7 +26,7 @@ mmweetrrinus
 ciiavelglyt
 </code></pre>
 
-This was pretty straightforward, and i knew i needed a the english dictionary to start with. There were a lot of different sources i could go with, here are a few examples to start with:
+This was pretty straightforward, and I knew I needed the english dictionary to start with. There were a lot of different sources I could go with, here are a few examples to start with:
 <pre><code>[http://www-personal.umich.edu/~jlawler/wordlist](http://www-personal.umich.edu/~jlawler/wordlist)
 [http://www.mit.edu/~ecprice/wordlist.10000](http://www.mit.edu/~ecprice/wordlist.10000)
 [https://github.com/en-wl/wordlist](https://github.com/en-wl/wordlist)
@@ -38,7 +38,7 @@ I got myself a words.txt file with ~25K words, each on a separate line. Reading 
 words = list(x for x in wordfile)
 </code></pre>
 
-Somehow newline characters were cleeping up in the words, so i decided to rstrip all of them.  
+Somehow newline characters were cleeping up in the words, so I decided to rstrip all of them.  
 <pre><code data-trim class="python">wordfile = open("words.txt")
 words = list(x.rstrip() for x in wordfile)
 </code></pre>
