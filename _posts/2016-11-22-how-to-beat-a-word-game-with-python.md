@@ -10,8 +10,8 @@ So one fine day I encounter one of these word-game-riddle-thingies that im norma
 So well the puzzle goes something like this:  
 Given a set of jumbled letters, find all possible combinations of antonym-like word pairs from it.
 
-#### example
-iount = in + out (the words need not be in order)  
+#### example  
+<code>iount = in + out   
 other inputs:  
 - golyrbi  
 - gondylou  
@@ -23,13 +23,14 @@ other inputs:
 - yyiannnurs  
 - mmweetrrinus  
 - ciiavelglyt
+</code>
 
 This was pretty straightforward, and i knew i needed a the english dictionary to start with. There were a lot of different sources i could go with, here are a few examples to start with:  
-<pre><code>[http://www-personal.umich.edu/~jlawler/wordlist]
+<code>[http://www-personal.umich.edu/~jlawler/wordlist]
 [http://www.mit.edu/~ecprice/wordlist.10000]
 [https://github.com/en-wl/wordlist]
 [https://github.com/dwyl/english-words]
-</code></pre>
+</code>
 
 I got myself a words.txt file with ~25K words, each on a separate line. Reading them into a list was not that difficult:  
 <pre><code data-trim class="python">wordfile = open("words.txt")
