@@ -11,9 +11,9 @@ So well the puzzle goes something like this:
 Given a set of jumbled letters, find all possible combinations of antonym-like word pairs from it.
 
 #### example  
-<pre>iount = in + out   
-other inputs:  
-- golyrbi  
+iount = in + out   
+#### other inputs:  
+<pre><code>- golyrbi  
 - gondylou  
 - wpnuOd  
 - naawmnom  
@@ -23,14 +23,13 @@ other inputs:
 - yyiannnurs  
 - mmweetrrinus  
 - ciiavelglyt
-</pre>
+</code></pre>
 
 This was pretty straightforward, and i knew i needed a the english dictionary to start with. There were a lot of different sources i could go with, here are a few examples to start with:  
-<pre>[http://www-personal.umich.edu/~jlawler/wordlist]
-[http://www.mit.edu/~ecprice/wordlist.10000]
-[https://github.com/en-wl/wordlist]
-[https://github.com/dwyl/english-words]
-</pre>
+- [http://www-personal.umich.edu/~jlawler/wordlist]
+- [http://www.mit.edu/~ecprice/wordlist.10000]
+- [https://github.com/en-wl/wordlist]
+- [https://github.com/dwyl/english-words]
 
 I got myself a words.txt file with ~25K words, each on a separate line. Reading them into a list was not that difficult:  
 <pre><code data-trim class="python">wordfile = open("words.txt")
