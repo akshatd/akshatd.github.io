@@ -2,7 +2,11 @@
 
 require 'date'
 
-POSTS_DIR = '_posts/'
+if ARGV[1] == 'draft'
+	POSTS_DIR = '_drafts/'
+else
+	POSTS_DIR = '_posts/'
+end
 
 post = ARGV[0]
 
