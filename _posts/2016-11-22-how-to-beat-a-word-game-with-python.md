@@ -5,28 +5,24 @@ title: Solving a mundane word game with Python
 category: Code
 tags: [ 'Python', 'word-puzzle', 'set' ]
 ---
-
-## Python is amazeballs
-
-So one fine day i encounter one of these word-game-riddle-thingies that im normally not very good at. It was on a whatsapp group chat, so while everyone normally flexes their brain muslces, i slip into a silent corner. This time round though, it was different. I decided to participate. What was different? This time i had Python!
+So one fine day I encounter one of these word-game-riddle-thingies that im normally not very good at. It was on a whatsapp group chat, so while everyone normally flexes their brain muslces, I slip into a silent corner. This time round though, it was different. I decided to participate. What was different? This time I had Python!
 
 So well the puzzle goes something like this:  
 Given a set of jumbled letters, find all possible combinations of antonym-like word pairs from it.
 
-#### example:
-* iount = in + out (the words need not be in order)
-
-* other inputs:  
- - golyrbi  
- - gondylou  
- - wpnuOd  
- - naawmnom  
- - titlghfer  
- - egmooc  
- - ydignhat  
- - yyiannnurs  
- - mmweetrrinus  
- - ciiavelglyt
+#### example
+iount = in + out (the words need not be in order)  
+other inputs:  
+- golyrbi  
+- gondylou  
+- wpnuOd  
+- naawmnom  
+- titlghfer  
+- egmooc  
+- ydignhat  
+- yyiannnurs  
+- mmweetrrinus  
+- ciiavelglyt
 
 This was pretty straightforward, and i knew i needed a the english dictionary to start with. There were a lot of different sources i could go with, here are a few examples to start with:  
 <pre><code>[http://www-personal.umich.edu/~jlawler/wordlist]
