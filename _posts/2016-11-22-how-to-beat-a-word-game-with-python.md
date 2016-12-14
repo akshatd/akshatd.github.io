@@ -14,39 +14,45 @@ So well the puzzle goes something like this:
 
 Given a set of jumbled letters, find all possible combinations of antonym-like word pairs from it.
 
-example: iount = in + out (the words need not be in order)
-other inputs:
-golyrbi
-gondylou
-wpnuOd
-naawmnom
-titlghfer
-egmooc
-ydignhat
-yyiannnurs
-mmweetrrinus
-ciiavelglyt
+#### example:
+- iount = in + out (the words need not be in order)
+- other inputs:
+.- golyrbi
+.- gondylou
+.- wpnuOd
+.- naawmnom
+.- titlghfer
+.- egmooc
+.- ydignhat
+.- yyiannnurs
+.- mmweetrrinus
+.- ciiavelglyt
 
 This was pretty straightforward, and i knew i needed a the english dictionary to start with. There were a lot of different sources i could go with, here are a few examples to start with:
+
 <pre><code>
 http://www-personal.umich.edu/~jlawler/wordlist
 http://www.mit.edu/~ecprice/wordlist.10000
 https://github.com/en-wl/wordlist
 https://github.com/dwyl/english-words
 </code></pre>
+
 I got myself a words.txt file with ~25K words, each on a separate line. Reading them into a list was not that difficult:
+
 <pre><code data-trim class="python">
 wordfile = open("words.txt")
 words = list(x for x in wordfile)
 </code></pre>
 
 Somehow newline characters were cleeping up in the words, so i decided to rstrip all of them.
+
 <pre><code data-trim class="python">
 wordfile = open("words.txt")
 words = list(x.rstrip() for x in wordfile)
 </code></pre>
 
 Well, now we need a user input! So
+
 <pre><code data-trim class="python">
 +input_word = raw_input("Enter the word to be checked: ")
 </code></pre>
