@@ -5,7 +5,7 @@ title: Solving a mundane word game with Python
 category: Code
 tags: [ 'Python', 'word-puzzle', 'set' ]
 ---
-So one fine day I encounter one of these word-game-riddle-thingies that im normally not very good at. It was on a whatsapp group chat, so while everyone normally flexes their brain muslces, I slip into a silent corner. This time round though, it was different. I decided to participate. What was different? This time I had Python!
+This was one of the first few times I actually used Python out of work or school. It's a word puzzle which would be easy if youre an english genius but if you're someone who wants a machine to do the heavy lifting, a Python script would be just what you need!
 
 So well the puzzle goes something like this:  
 Given a set of jumbled letters, find all possible combinations of antonym-like word pairs from it.
@@ -37,7 +37,7 @@ I got myself a words.txt file with ~25K words, each on a separate line. Reading 
 words = list(x for x in wordfile)
 </code></pre>
 
-Somehow newline characters were cleeping up in the words, so I decided to rstrip all of them.  
+Somehow newline characters were creeping up in the words, so I decided to rstrip all of them.  
 <pre><code data-trim class="python">wordfile = open("words.txt")
 words = list(x.rstrip() for x in wordfile)
 </code></pre>
